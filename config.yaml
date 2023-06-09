@@ -1,0 +1,27 @@
+method: FedAvg
+dataset: ml-100k
+model_type: NCF
+neg_pos_ratio: 4
+rounds: 40000
+
+sample_size: 15
+learning_rate: 0.001
+lr_decay: 0.9
+batch_size: 64
+epochs: 10
+lr_step: 10
+local_loss_threshold: 0.00001
+distill_batch_size: 256
+distill_learning_rate: 0.001
+distill_epochs: 5
+distill_loss_threshold: 0.00001
+distill_lr_step: 90
+distill_lr_decay: 0.95
+distill_pos_ratio: 0.25
+distill_T: 3
+
+factor_num: 32
+num_layers: 3
+dropout: 0
+top_k: 10
+eval_every: 1
