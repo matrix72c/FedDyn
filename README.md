@@ -7,15 +7,24 @@ An implementation of the [FedDyn: A dynamic and efficient federated distillation
 If you use this repository for academic research, you are encouraged to cite our paper:
 
 ```
-@INPROCEEDINGS{10077950,
-  author={Jin, Cheng and Chen, Xuandong and Gu, Yi and Li, Qun},
-  booktitle={2022 IEEE 28th International Conference on Parallel and Distributed Systems (ICPADS)}, 
-  title={FedDyn: A dynamic and efficient federated distillation approach on Recommender System}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={786-793},
-  doi={10.1109/ICPADS56603.2022.00107}}
+@inproceedings{DBLP:conf/icpads/JinCGL22,
+  author       = {Cheng Jin and
+                  Xuandong Chen and
+                  Yi Gu and
+                  Qun Li},
+  title        = {FedDyn: {A} dynamic and efficient federated distillation approach
+                  on Recommender System},
+  booktitle    = {28th {IEEE} International Conference on Parallel and Distributed Systems,
+                  {ICPADS} 2022, Nanjing, China, January 10-12, 2023},
+  pages        = {786--793},
+  publisher    = {{IEEE}},
+  year         = {2022},
+  url          = {https://doi.org/10.1109/ICPADS56603.2022.00107},
+  doi          = {10.1109/ICPADS56603.2022.00107},
+  timestamp    = {Thu, 21 Sep 2023 13:15:57 +0200},
+  biburl       = {https://dblp.org/rec/conf/icpads/JinCGL22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 # Usage
